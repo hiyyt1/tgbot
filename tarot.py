@@ -4,7 +4,7 @@ import random
 import os
 from card_data import card_interpretations
 
-cards_dir = os.path.join(os.path.dirname(__file__), "/home/kali/Documents/tgbot2/data/cards_images")
+cards_dir = os.path.join(os.path.dirname(__file__), "your_path")
 
 def get_random_cards(num_cards=3):
     cards = random.sample(list(card_interpretations.items()), num_cards)
