@@ -2,7 +2,7 @@
 
 import random
 import os
-from data.card_data import card_interpretations
+from card_data import card_interpretations
 
 cards_dir = os.path.join(os.path.dirname(__file__), "/home/kali/Documents/tgbot2/data/cards_images")
 
